@@ -1,0 +1,234 @@
+.photoAccueil {
+    padding: 15px 0 90px; }
+    .photoAccueil h2 {
+        color: #1C2D5C;
+        font-size: 50px;
+        text-transform: uppercase;
+        font-family: "Judson", serif;
+        font-weight: 700; }
+    .photoAccueil .card {
+        height: 250px;
+        border-radius: 10px;
+        overflow: hidden;
+        position: relative; }
+    .photoAccueil .lienPhotos {
+        text-decoration: none;
+        color: #1C2D5C;
+        text-align: center;
+        font-family: "Jost", serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-size: 20px;
+        font-style: normal; }
+        .photoAccueil .lienPhotos:hover {
+            text-decoration: underline; }
+  
+
+    .photoAccueil .lightbox {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.8);
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+        .photoAccueil .lightbox img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover;
+            border-radius: 10px; }
+        .photoAccueil .lightbox-content {
+            text-align: center;
+            max-width: 100%; }
+            .photoAccueil .lightbox-content img {
+                max-width: 90vw;
+                max-height: 90vh;
+                border-radius: 10px;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); }
+            .photoAccueil .lightbox-content .description .titre {
+                color: #F4EFEA;
+                font-size: 30px;
+                padding: 20px 0 0 0;
+                margin: 0;
+                font-family: "Judson", serif;
+                font-weight: 700; }
+            .photoAccueil .lightbox-content .description {
+                color: #F4EFEA;
+                font-family: "Jost", serif;
+                margin: 0;
+                font-optical-sizing: auto;
+                font-weight: 500;
+                font-style: normal; }
+                .photoAccueil .lightbox-content .description .dateLocalisation {
+                    font-size: 10px; }
+            
+            .prev, .next {
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                background: none;
+                border: none;
+                color: white;
+                font-size: 30px;
+                cursor: pointer;
+            }
+            
+            .prev {
+                left: 20px;
+            }
+            
+            .next {
+                right: 20px;
+            }
+
+
+            .prev-thumbnail, .next-thumbnail {
+                top: 50%;
+                padding: 0 40px;
+                transform: translateY(-50%);
+                cursor: pointer;
+            }
+            
+            .prev-thumbnail {
+                left: 20px;
+            }
+            
+           /* .next-thumbnail {
+                right: 20px;
+            }*/
+            
+            .prev-thumbnail img, .next-thumbnail img {
+                border-radius: 5px;
+                transition: transform 0.2s ease-in-out;
+            }
+            
+            .prev-thumbnail img:hover, .next-thumbnail img:hover {
+                transform: scale(1.1);
+            }
+            
+.galeriePhotos {
+    padding: 90px 15px 70px 15px; }            
+    .galeriePhotos .galerietitre {
+        color: #1C2D5C;
+        font-size: 50px;
+        position: relative;
+        font-family: "Judson", serif;
+        font-weight: 700;
+        text-align: center;
+        margin: 0; }
+        .galeriePhotos .galerietitre img {
+            color: transparent;
+            margin: auto;
+            width: 100%;
+            object-fit: cover;
+            border-radius: 10px; }
+        .galeriePhotos .galerietitre .titre {
+            background-color: rgb(0 0 0 / 60%);
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #F4EFEA;
+            border-radius: 10px; 
+            top: 0;
+            left: 0; }
+            .galeriePhotos .galerietitre .titre h2 {
+                color: #F4EFEA;
+                font-size: 50px;
+                margin-bottom: 0;
+                font-family: "Judson", serif;
+                font-weight: 700; }
+            .galeriePhotos .galerietitre .titre p {
+                color: #F4EFEA;
+                font-family: "Jost", serif;
+                font-weight: 500;
+                font-size: 17px;
+                font-style: normal; }
+            .galeriePhotos .search-bar {
+                position: relative; }
+                .galeriePhotos .search-bar input {
+                    font-family: "Jost", serif;
+                    font-weight: 500;
+                    display: block;
+                    font-size: 15px;
+                    padding: 5px 15px;
+                    background-color: transparent;
+                    border: #A3C585 2px solid;
+                    border-radius: 50px;
+                    color: #A3C585;
+                    font-style: normal; }
+
+.galeriefiltres {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin-top: 20px;
+    margin-bottom: 30px; }
+    .galeriefiltres .titre {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        align-content: center; }
+        .galeriefiltres .titre .titrefiltre {
+            color: #1C2D5C;
+            font-family: Jost, serif;
+            font-weight: 500;
+            margin: 0;
+            padding: 0;
+            font-size: 22px;
+            line-height: normal;
+            font-style: normal; }
+        .galeriefiltres .titre .btn {
+            border-radius: 10px;
+            border: #D4A373 2px solid;
+            border-radius: 50px;
+            color: #D4A373; }
+            .galeriefiltres .titre .btn:hover {
+                background-color: #D4A373;
+                border: #A3C585 2px solid;
+                color: #F4EFEA; }
+            .galeriefiltres .titre .btn-clear {
+                border: #d12323 2px solid;
+                color: #d12323; }
+                .galeriefiltres .titre .btn-clear:hover {
+                    background-color: #d12323;
+                    border: #D4A373 2px solid;
+                    color: #F4EFEA; }
+    
+    .galeriefiltres .filtretag {
+        margin-top: 15px;
+        padding-top: 15px;
+        border-top: #D4A373 1px solid; }
+        .galeriefiltres .filtretag h6 {
+            color: #1C2D5C;
+            font-family: "Jost", serif;
+            font-weight: 500;
+            font-size: 17px;
+            font-style: normal; }
+        .galeriefiltres .filtretag .btn {
+            margin: 0 10px;
+            font-family: "Jost", serif;
+            font-weight: 500;
+            font-size: 15px;
+            color: #1C2D5C;
+            padding: 5px 15px;
+            background-color: transparent;
+            border: #D4A373 2px solid;
+            border-radius: 50px;
+            font-style: normal; }
+            .galeriefiltres .filtretag .btn:hover {
+                background-color: #A3C585;
+                border: #A3C585 2px solid;
+                color: #F4EFEA; }
+            .galeriefiltres .filtretag .btn-select {
+                background-color: #D4A373;
+                color: #F4EFEA;
+                border: #D4A373 2px solid; }
+
+
+        

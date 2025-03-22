@@ -1,0 +1,70 @@
+/* Footer.module.css */
+
+.footer {
+    padding: 0 20px;
+    background: #1C2D5C;
+    color: #F4EFEA; }
+    .footer .infoSite {
+        padding: 0 20px; }
+        .footer .infoSite h2,
+        .footer .infoSite-center h2 {
+            color: #F4EFEA;
+            font-size: 35px;
+            font-family: "Judson", serif;
+            padding-bottom: 10px;
+            font-weight: 700; }
+        .footer .infoSite p,
+        .footer .infoSite-center p {
+            color: #F4EFEA;
+            font-family: "Jost", serif;
+            font-optical-sizing: auto;
+            font-weight: 500;
+            margin: 0;
+            font-size: 17px;
+            font-style: normal; }
+        .footer .infoSite-center h2,
+        .footer .infoSite-center p {
+            text-align: center; }
+            
+    .footer .navigationSite {
+        padding: 0 20px; }
+        .footer .navigationSite h3,
+        .footer .categoriesArticles h3 {
+            color: #F4EFEA;
+            font-size: 25px;
+            font-family: "Judson", serif;
+            padding-top: 10px;
+            font-weight: 700; }
+        .footer .navigationSite ul,
+        .footer .categoriesArticles ul {
+            list-style: none;
+            padding: 0;
+            margin: 0; }
+            .footer .navigationSite ul li a,
+            .footer .categoriesArticles ul li a {
+                color: #F4EFEA;
+                text-decoration: none;
+                font-family: "Jost", serif;
+                font-optical-sizing: auto;
+                font-size: 15px;
+                font-style: normal; }
+                .footer .navigationSite ul li a:hover,
+                .footer .categoriesArticles ul li a:hover {
+                    text-decoration: underline; }
+                    .footer .navigationSite p,
+                    .footer .categoriesArticles p {
+                        padding: 0;
+                        margin-bottom: 3px; }
+    .footer .copyright {
+        margin: 30px 0 0 0;
+        border-top: #F4EFEA 0.5px solid;
+        background: #1C2D5C;
+        color: #F4EFEA;
+        text-align: center;
+        padding: 10px 0;
+        font-size: 14px;
+        font-family: "Jost", serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;}
+  

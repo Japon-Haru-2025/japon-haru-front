@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&family=Modak&display=swap');
+
+.menu .navbar {
+  padding: 10px;
+  transition: background-color 0.3s ease-in-out; }
+
+.menu .navbar.scrolled {
+  background-color: #F4EFEA;
+}
+
+/* Style du titre */
+.menu .title, .menu .nav-item {
+  color: #1C2D5C;
+  font-family: "Judson", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.menu .title {
+  font-size: 32px;
+  text-decoration: none;
+}
+
+.menu .title p {
+  margin: 0;
+}
+
+/* Style des liens */
+.menu .nav-item {
+  padding: 0 10px;
+  font-size: 24px;
+}
+
+.menu .nav-item a {
+  color: #1C2D5C;
+  text-decoration: none;
+}
+
+.menu .nav-item a:hover {
+  text-decoration: underline;
+}
+
+
+/* Responsive */
+@media (max-width: 991px) {
+  .menu .navbar {
+    background-color: #F4EFEA; }
+    .navbar .navbar-toggler {
+      border: transparent; }
+  .menu .navbar-collapse {
+    position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+      background-color: #F4EFEA;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      transition: all .3sease-in-out;
+      padding: 20px;
+      text-align: right;
+      text-align-last: right;
+      justify-content: space-around; }
+    .menu .navbar-nav {
+      text-align: center; }
+    .menu .nav-item {
+      padding: 10px 0;
+      font-size: 28px; }
+    .mobile-footer p {
+      font-size: 12px;
+      color: #1C2D5C;
+      margin: 0;
+      display: table !important;
+      padding: 0; } }
+
+
+/* Empêche le scroll quand le menu est ouvert */
+.no-scroll {
+  overflow: hidden;
+  height: 100vh;
+}
