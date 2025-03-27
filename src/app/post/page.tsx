@@ -1,11 +1,12 @@
 // app/post.tsx
 import React from "react";
-import ArticleDetails from '../../components/article/[id]'; // Importer le composant ArticleDetails
+import ArticleDetails from '../../components/article/[slug]'; // Importer le composant ArticleDetails
+import About from "@/components/About";
 
 const Post = () => {
   return (
     <div>
-      <ArticleDetails />
+      <About />
     </div>
   );
 };
